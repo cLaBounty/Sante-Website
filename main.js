@@ -1,11 +1,12 @@
-// TODO: update with accurate links
-const APP_STORE_URL = "https://cameronlabounty.com"
-const GOOGLE_PLAY_URL = "https://cameronlabounty.com"
+const APPLE_APP_STORE_ID = "6476798776"
+const ANDROID_BUNDLE_ID = "com.sante.android"
 
 const onAppStoreDownloadClicked = () => {
-    window.open(APP_STORE_URL)
+    let url = "https://apps.apple.com/app/id" + APPLE_APP_STORE_ID
+    window.open(url)
 }
 
 const onGooglePlayDownloadClicked = () => {
-    window.open(GOOGLE_PLAY_URL)
+    let url = "https://play.google.com/store/apps/details?id=" + ANDROID_BUNDLE_ID
+    window.open(url)
 }
